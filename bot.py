@@ -82,9 +82,9 @@ async def help_command(message:types.Message):
 @dp.message_handler(commands=['Каталог'])
 async def catalog_command(message:types.Message):
     await bot.send_message(chat_id = message.from_user.id, text = "Каталог наших пицц")
-    await bot.send_photo(chat_id = message.from_user.id,photo = menu)
-    await bot.send_photo(chat_id = message.from_user.id,photo = menu2)
-    await bot.send_photo(chat_id = message.from_user.id,photo = menu3)
+    await bot.send_photo(chat_id = message.from_user.id,photo = 'https://ibb.co/8PMg2C7')
+    await bot.send_photo(chat_id = message.from_user.id,photo = 'https://ibb.co/1qny53X')
+    await bot.send_photo(chat_id = message.from_user.id,photo = 'https://ibb.co/z2fnyT0')
     await bot.send_photo(chat_id = message.from_user.id,photo = menu4)
 
 
